@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/chsienlee/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/chsienlee/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react',
+1 verbose cli   '—save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json assets@1.0.0 No description
+5 warn package.json assets@1.0.0 No repository field.
+6 warn package.json assets@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react', null ]
+9 verbose cache add name=undefined spec="react" args=["react",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react',
+10 verbose parsed url   path: 'react',
+10 verbose parsed url   href: 'react' }
+11 verbose cache add [ '—save', null ]
+12 verbose cache add name=undefined spec="—save" args=["—save",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '—save',
+13 verbose parsed url   path: '—save',
+13 verbose parsed url   href: '—save' }
+14 silly lockFile 6b810c90-react react
+15 verbose lock react /Users/chsienlee/.npm/6b810c90-react.lock
+16 silly lockFile 40f87acd-save —save
+17 verbose lock —save /Users/chsienlee/.npm/40f87acd-save.lock
+18 silly lockFile 6b810c90-react react
+19 silly lockFile 6b810c90-react react
+20 silly lockFile 40f87acd-save —save
+21 silly lockFile 40f87acd-save —save
+22 verbose addNamed [ 'react', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 0baa5bb3-react react@
+25 verbose lock react@ /Users/chsienlee/.npm/0baa5bb3-react.lock
+26 verbose addNamed [ '—save', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 3b923a69-save —save@
+29 verbose lock —save@ /Users/chsienlee/.npm/3b923a69-save.lock
+30 silly addNameRange { name: 'react', range: '*', hasData: false }
+31 silly addNameRange { name: '—save', range: '*', hasData: false }
+32 verbose request where is /react
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 0c3f742eee319040
+35 verbose url raw /react
+36 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+37 verbose url resolved https://registry.npmjs.org/react
+38 verbose request where is https://registry.npmjs.org/react
+39 info trying registry request attempt 1 at 11:58:53
+40 http GET https://registry.npmjs.org/react
+41 verbose request where is /—save
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /—save
+44 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%94save' ]
+45 verbose url resolved https://registry.npmjs.org/%E2%80%94save
+46 verbose request where is https://registry.npmjs.org/%E2%80%94save
+47 info trying registry request attempt 1 at 11:58:53
+48 http GET https://registry.npmjs.org/%E2%80%94save
+49 http 404 https://registry.npmjs.org/%E2%80%94save
+50 silly registry.get cb [ 404,
+50 silly registry.get   { 'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '69',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     date: 'Sat, 15 Aug 2015 03:58:54 GMT',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     connection: 'keep-alive',
+50 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1439611134.803593,VS0,VE108' } ]
+51 silly lockFile 3b923a69-save —save@
+52 silly lockFile 3b923a69-save —save@
+53 http 200 https://registry.npmjs.org/react
+54 silly registry.get cb [ 200,
+54 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     etag: '"EG9TI8099WC7S2HIZXGD8YCLS"',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=60',
+54 silly registry.get     'content-length': '66802',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     date: 'Sat, 15 Aug 2015 03:58:55 GMT',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     connection: 'keep-alive',
+54 silly registry.get     'x-served-by': 'cache-nrt6122-NRT',
+54 silly registry.get     'x-cache': 'HIT',
+54 silly registry.get     'x-cache-hits': '1',
+54 silly registry.get     'x-timer': 'S1439611134.911286,VS0,VE134',
+54 silly registry.get     vary: 'Accept' } ]
+55 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+56 silly addNameRange versions [ 'react',
+56 silly addNameRange   [ '0.0.1',
+56 silly addNameRange     '0.0.2',
+56 silly addNameRange     '0.0.3',
+56 silly addNameRange     '0.1.2',
+56 silly addNameRange     '0.2.0',
+56 silly addNameRange     '0.2.1',
+56 silly addNameRange     '0.2.2',
+56 silly addNameRange     '0.2.3',
+56 silly addNameRange     '0.2.4',
+56 silly addNameRange     '0.2.5',
+56 silly addNameRange     '0.2.6',
+56 silly addNameRange     '0.3.0',
+56 silly addNameRange     '0.3.4',
+56 silly addNameRange     '0.3.5',
+56 silly addNameRange     '0.5.0',
+56 silly addNameRange     '0.5.1',
+56 silly addNameRange     '0.5.2',
+56 silly addNameRange     '0.6.0',
+56 silly addNameRange     '0.6.1',
+56 silly addNameRange     '0.6.2',
+56 silly addNameRange     '0.6.3',
+56 silly addNameRange     '0.7.0',
+56 silly addNameRange     '0.7.1',
+56 silly addNameRange     '0.8.0',
+56 silly addNameRange     '0.9.0-rc1',
+56 silly addNameRange     '0.9.0',
+56 silly addNameRange     '0.10.0-rc1',
+56 silly addNameRange     '0.10.0',
+56 silly addNameRange     '0.11.0-rc1',
+56 silly addNameRange     '0.11.0',
+56 silly addNameRange     '0.11.1',
+56 silly addNameRange     '0.11.2',
+56 silly addNameRange     '0.12.0-rc1',
+56 silly addNameRange     '0.12.0',
+56 silly addNameRange     '0.12.1',
+56 silly addNameRange     '0.12.2',
+56 silly addNameRange     '0.13.0-alpha.1',
+56 silly addNameRange     '0.13.0-alpha.2',
+56 silly addNameRange     '0.13.0-beta.1',
+56 silly addNameRange     '0.13.0-beta.2',
+56 silly addNameRange     '0.13.0-rc1',
+56 silly addNameRange     '0.13.0-rc2',
+56 silly addNameRange     '0.13.0',
+56 silly addNameRange     '0.13.1',
+56 silly addNameRange     '0.13.2',
+56 silly addNameRange     '0.13.3',
+56 silly addNameRange     '0.14.0-alpha1',
+56 silly addNameRange     '0.14.0-alpha2',
+56 silly addNameRange     '0.14.0-alpha3',
+56 silly addNameRange     '0.14.0-beta1',
+56 silly addNameRange     '0.14.0-beta2',
+56 silly addNameRange     '0.14.0-beta3' ] ]
+57 verbose addNamed [ 'react', '0.13.3' ]
+58 verbose addNamed [ '0.13.3', '0.13.3' ]
+59 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+60 verbose lock react@0.13.3 /Users/chsienlee/.npm/e90fbd15-react-0-13-3.lock
+61 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+62 verbose lock https://registry.npmjs.org/react/-/react-0.13.3.tgz /Users/chsienlee/.npm/2572284c-npmjs-org-react-react-0-13-3-tgz.lock
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.13.3.tgz',
+63 verbose addRemoteTarball   'a2dfa85335d7dc02b82b482f089582e64cc13356' ]
+64 info retry fetch attempt 1 at 11:58:53
+65 verbose fetch to= /var/folders/rf/t3jmlx510fx2kc7w2rcpd__c0000gn/T/npm-57956-TESbC825/registry.npmjs.org/react/-/react-0.13.3.tgz
+66 http GET https://registry.npmjs.org/react/-/react-0.13.3.tgz
+67 http 200 https://registry.npmjs.org/react/-/react-0.13.3.tgz
+68 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+69 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+70 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+71 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+72 silly lockFile 0baa5bb3-react react@
+73 silly lockFile 0baa5bb3-react react@
+74 error 404 Not Found
+74 error 404
+74 error 404 '—save' is not in the npm registry.
+74 error 404 You should bug the author to publish it
+74 error 404 It was specified as a dependency of 'assets'
+74 error 404
+74 error 404 Note that you can also install from a
+74 error 404 tarball, folder, or http url, or git url.
+75 error System Darwin 14.3.0
+76 error command "/Users/chsienlee/.nvm/v0.10.33/bin/node" "/Users/chsienlee/.nvm/v0.10.33/bin/npm" "install" "react" "—save"
+77 error cwd /Users/chsienlee/RailsWorkspace/rails-webpack/app/assets
+78 error node -v v0.10.33
+79 error npm -v 1.4.28
+80 error code E404
+81 verbose exit [ 1, true ]

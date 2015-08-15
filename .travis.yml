@@ -1,0 +1,8 @@
+language: ruby
+node_js: 0.10
+cache:
+  bundler: true
+  directories:
+    - app/assets/node_modules
+before_script: ./bin/setup
+script: bundle exec rspec —colour —format d
